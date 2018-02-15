@@ -1,0 +1,110 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/vet"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:fontFamily="cursive"
+            android:gravity="center_horizontal"
+            android:paddingTop="@dimen/title_padding_top"
+            android:text="@string/vet_name"
+            android:textColor="#0091EA"
+            android:textSize="@dimen/title_text_size"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:background="#FFFFFF"
+            android:paddingBottom="@dimen/dog_image_padding_bottom"
+            android:scaleType="fitCenter"
+            android:src="@drawable/doctor_dog" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/location_icon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_margin="@dimen/icon_image_margin_layout"
+                android:layout_toLeftOf="@id/address"
+                android:layout_toStartOf="@id/address"
+                android:scaleType="fitXY"
+                android:src="@drawable/google_location_icon" />
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="sans-serif-condensed"
+                android:padding="@dimen/padding_text_view"
+                android:text="@string/street"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/address_text_size" />
+
+
+            <ImageView
+                android:id="@+id/web_icon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/address"
+                android:layout_margin="@dimen/icon_image_margin_layout"
+                android:layout_toLeftOf="@id/web"
+                android:layout_toStartOf="@id/web"
+                android:scaleType="fitXY"
+                android:src="@drawable/web_icon" />
+
+            <TextView
+                android:id="@+id/web"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/address"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="sans-serif-condensed"
+                android:padding="@dimen/padding_text_view"
+                android:text="@string/web"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/web_text_size" />
+
+            <ImageView
+                android:id="@+id/tel_icon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/web"
+                android:layout_margin="@dimen/icon_image_margin_layout"
+                android:layout_toLeftOf="@id/tel"
+                android:layout_toStartOf="@id/tel"
+                android:scaleType="fitXY"
+                android:src="@drawable/tel_icon" />
+
+            <TextView
+                android:id="@+id/tel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/web"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="sans-serif-condensed"
+                android:padding="@dimen/padding_text_view"
+                android:text="@string/tel_number"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/phone_text_size" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
+
+

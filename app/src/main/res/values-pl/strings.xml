@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VetApp</string>
+    <string name="vet_name">Klinika weterynaryjna</string>
+    <string name="street">ul. Kulczyńskiego 8a, Warszawa</string>
+    <string name="web">www.lecznica-ursynow.waw.pl</string>
+    <string name="tel_number">+48 22 644 06 80</string>
+</resources>

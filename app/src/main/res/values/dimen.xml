@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Define Title text size -->
+    <dimen name="title_text_size">36sp</dimen>
+
+    <!-- Define address text size  -->
+    <dimen name="address_text_size">20sp</dimen>
+
+    <!-- Define web text size -->
+    <dimen name="web_text_size">20sp</dimen>
+
+    <!-- Define telephone text size -->
+    <dimen name="phone_text_size">20sp</dimen>
+
+    <!-- Define Title padding -->
+    <dimen name="title_padding_top">10dp</dimen>
+
+    <!-- Define main Image padding -->
+    <dimen name="dog_image_padding_bottom">1dp</dimen>
+
+    <!-- Define dimensions for Icons -->
+    <dimen name="icon_image_margin_layout">10dp</dimen>
+
+    <!-- Define dimensions for main Linear Layout and Relative Layout. -->
+    <dimen name="margin_top">16dp</dimen>
+    <dimen name="margin_bottom">16dp</dimen>
+    <dimen name="margin_right">16dp</dimen>
+    <dimen name="margin_left">16dp</dimen>
+
+    <!-- Define dimensions for Buttons -->
+    <dimen name="layout_margin_bottom_button">20dp</dimen>
+    <dimen name="layout_margin_top_button">16dp</dimen>
+
+    <!-- Define dimensions for TextViews -->
+    <dimen name="layout_margin_top_text_view">16dp</dimen>
+    <dimen name="padding_text_view">10dp</dimen>
+
+
+    <!-- Define text size for questions -->
+    <dimen name="question_text_size">16sp</dimen>
+
+
+
+</resources>
